@@ -35,7 +35,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:800px;
+    height:900px;
 }
 .menu{
     display: flex;
@@ -167,6 +167,8 @@ nav ul li{
 .shorts{
     background-color: rgb(16, 17, 19);
     height: 430px;
+    align-items: center;
+    display: flex;
 }
 .gallery{
     width: 100%;
@@ -223,7 +225,7 @@ nav ul li{
 }
 .img-container{
     justify-self: center;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 2rem 0;
 }
 .img-gallery{
     display: flex;
@@ -246,12 +248,12 @@ nav ul li{
     display: grid;
     background-color: #262626;
     padding: 4rem 0;
+    padding-bottom: 150rem;
 }
 .third-2{
     display: grid;
-    background-color: #262626;
-    padding: 0rem 0;
-    padding-top: 100rem;
+    background-color: #1b1b1b;
+    padding: 4rem 0;
 }
 .product{
     justify-self: center;
@@ -297,7 +299,7 @@ nav ul li{
 .stirring{
     background-color: rgb(16, 17, 19);
     display: flex;
-    padding: 2rem 3rem;
+    padding: 10rem 10rem;
     align-items: center;
 }
 .btn-get-started {
@@ -387,12 +389,9 @@ nav ul li{
 .team-profile{
     cursor: default;
 }
-.team-profile:hover  .qoute{
-    opacity: 100;
-}
 .profile-pics{
-    width: 240px;
-    height: 240px;
+    width: 350px;
+    height: 350px;
     display: grid;
 }
 .profile-pics p{
