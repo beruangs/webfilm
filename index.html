@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeB films - a short film by bcf 1 batwoska</title>
+
+    <!-- Favicons -->
+    <link href="../files/web-favicon.png" rel="icon">
+    <link href="../files/web-appleicon.png" rel="apple-touch-icon">
+
+    <!--External Links-->
+    <script src="https://kit.fontawesome.com/6a408ba681.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="/Style/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="stylesheet" href="./Style/tablet.css">
+    <link rel="stylesheet" href="./Style/mobile.css">
+    <script>
+        fetch('./src/header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.body.insertAdjacentHTML('afterbegin', html);
+
+                headerContentLoaded();
+            });
+    </script>
+
+    <script>
+        fetch('./src/footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.body.insertAdjacentHTML('beforeend', html);
+             
+                footerContentLoaded();
+            });
+    </script>
+</head>
+<body>
+    <!--NavBar-->
+    <!--Imported header displays here-->
+
+    <!--Main-->
+    <section class="fst">
+        <div class="fstdiv">
+            <span id="syn">
+                <h2>Synopsis</h2>
+            </span>
+            <span id="dummy1">
+                <p>WeB mengisahkan perjalanan emosional Aci, seorang perempuan muda yang menghadapi berbagai kesulitan hidup setelah kematian ayahnya. Berjuang dengan beban emosional dan finansial yang ditinggalkan, Aci berusaha keras untuk menemukan kedamaian di tengah tekanan.
+                </p>
+            </span>
+        </div>
+        <div class="shorts clicket">
+            <div class="swiper gallery">
+                <div class="swipper-wrapper image-gallery" >
+                    <div class="swiper-slide gallery-item item-img1">
+                        <img class="" src="./files/alfa-home-c-img-1.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="swiper-slide gallery-item item-img2">
+                        <img class="" src="./files/alfa-home-c-img-2.jpg" loading="lazy" alt="">
+                    </div>
+                    <div class="swiper-slide gallery-item item-img3">
+                        <img class="" src="./files/alfa-home-c-img-3.jpg" loading="lazy" alt="">
+                    </div>
+                </div>
+                <div id="button" class="swiper-button-prev previous absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                    </svg>
+                </div>
+                
+                <!-- <button type="button" class="play-button next absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none">
+                    <span class="play-btn inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+                </button> -->
+                <div id="button" class="swiper-button-next next absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stirring">
+        <div class="stirring-img">
+            <img src="./files/web-poster (Small).png" alt="">
+        </div>
+        <div class="stirring-movie">
+            <h3>drama, thriller</h3>
+            <h2>WEB</h2>
+            <p>A film by BCF 1 Batwoska</p>
+            <div class="youtube-container">
+                <iframe src="https://www.youtube.com/embed/PeLnpxw0g8M?si=ovmrLeKR-KEkVT71" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="/src/watch.html" class="btn-get-started scrollto" style="position: relative;">Watch movie</a>
+        </div>
+    </section>
+
+    <section class="second">
+        <div class="team">
+            <div class="team-txt">
+                <h2>OUR CASTS</h2>
+            </div>
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/janoko.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Brilian Navista</h3>
+                        <p>Aci</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/main-image-5.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Lucky Dwi</h3>
+                        <p>Lucky/Debt Collector</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/main-image-5.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Rafa Abiyyu</h3>
+                        <p>Abi/Debt Collector</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/main-image-5.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Hafidz Nur</h3>
+                        <p>Hafidz/Debt Collector</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/main-image-5.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Natalia Putri</h3>
+                        <p>Nata/Penghuni Rumah</p>
+                    </span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="third">
+        <div class="team">
+            <div class="team-txt">
+                <h3>Meet US</h3>
+                <h2>OUR PRODUCTION TEAM</h2>
+            </div>
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/janoko.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Janoko Jentayubronto</h3>
+                        <p>Director</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Tamyiiz</h3>
+                        <p>Producer</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/shella.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Shella Isworo</h3>
+                        <p>Production Manager</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/alif.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Alif Al</h3>
+                        <p>Scriptwriter</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/febriano.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Febriano Rizki</h3>
+                        <p>Scriptwriter</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/aziz.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Aziz</h3>
+                        <p>Assistant Director 1</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/nanda.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Ananda Putri</h3>
+                        <p>Assistant Director 2</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/arya.jpg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Arya Yudhantara</h3>
+                        <p>Director of Photography</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Joandra Bevan</h3>
+                        <p>Camera Assistant</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/aliya.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Aliya Nur</h3>
+                        <p>Clapper</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/ridwan.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Ridwan</h3>
+                        <p>Script Report</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/alif.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Yulinda Pratika</h3>
+                        <p>Sound Recordist</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/andhika.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Andhika Fajri</h3>
+                        <p>Sound Recordist</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/kadek.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Kadek Maemun</h3>
+                        <p>Sound Recordist</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/nanda.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Bintang Ade</h3>
+                        <p>Gaffer</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/tirta.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Mahardika Tirta</h3>
+                        <p>Best Bot (Lighting)</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Akbar Azizaka</h3>
+                        <p>Best Boy (Lighting)</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Guntur</h3>
+                        <p>Art Director</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Haikal Gusti</h3>
+                        <p>Artistic</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/jojo.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Jonathan Andra</h3>
+                        <p>Artistic</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/faiq.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Faiq</h3>
+                        <p>Artistic</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/kadek.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Acca Tabah</h3>
+                        <p>Wardrobe</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/hizra.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Hizra Puri</h3>
+                        <p>Wardrobe</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/tirta.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Mesyta Gadis</h3>
+                        <p>Make Up Artist</p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/kaka.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Ahmad Kaka</h3>
+                        <p>D.I.T</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Muhammad Isnain</h3>
+                        <p>Offline Editor</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/nanda.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Titann Rajasanagara</h3>
+                        <p>Online Editor</p>
+                    </span>
+                </div>
+
+                <div class="team-profile">
+                    <div class="profile-container">
+                        <div class="profile-pics">
+                            <span class="profile-icn">
+                                <img src="./files/profile/tirta.JPG" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <span class="profile-txt">
+                        <h3>Mahardika Tirta</h3>
+                        <p>Best Bot (Lighting)</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="third-2">
+        <span class="new-fiims">
+            <h2>Behind The Scenes</h2>
+        </span>
+        <div class="img-container">
+            <div class="img-gallery">
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/behind-the-scene/bts1.JPG" alt="">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/behind-the-scene/bts2.JPG" alt="">
+                    </div>
+                </div>
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/main-port-21.jpg" alt="">
+                    </div>
+                    <span class="fig-caption">
+                    </span>
+                </div>
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/main-port-11.jpg" alt="">
+                    </div>
+                    <span class="fig-caption">
+                    </span>
+                </div>
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/main-port-21.jpg" alt="">
+                    </div>
+                    <span class="fig-caption">
+                    </span>
+                </div>
+                <div class="gallery-card">
+                    <div class="image">
+                        <img src="./files/main-port-11.jpg" alt="">
+                    </div>
+                    <span class="fig-caption">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="fifth">
+        <span class="product">
+            <h2>Our Other Production</h2>
+        </span>
+        <div class="movies">
+            <div class="movie-card">
+                <img src="./files/thumbnail-film/YTCLASS-RENUNG.png" alt="">
+                <span class="movies-txt">
+                    <p>2024</p>
+                    <h3>Renung</h3>
+                    <p>Directed by <b>Acca Tabah & Ahmad Kaka</b></p>
+                </span>
+            </div>
+            <div class="movie-card">
+                <img src="./files/thumbnail-film/Thumbnail YT Film Sadar.png" alt="">
+                <span class="movies-txt">
+                    <p>2024<p>
+                    <h3>Sadar</h3>
+                    <p>Directed by <b>Mesyta Gadis</b></p>
+                </span>
+            </div>
+            <div class="movie-card">
+                <img src="./files/thumbnail-film/YTCLASS-NANTANG.png" alt="">
+                <span class="movies-txt">
+                    <p>2024</p>
+                    <h3>Nantang</h3>
+                    <p>Directed by <b>Muhammad Tamyiiz</b></p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth">
+        <div class="partners-logo collab-logo-item">
+            <span class="collab-logo">
+                <img src="./files/sponsor/sponsor-logo.png" alt="">
+            </span>
+        </div>
+    </section>
+
+    <!--Import footer displays here-->
+    <!--External Javascript link-->
+     <script src="./Script/mail_system/sendmail.js"></script>
+    <script src="./Script/carousel.js"></script>
+</body>
+</html>

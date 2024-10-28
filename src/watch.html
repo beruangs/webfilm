@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeB films - a short film by bcf 1 batwoska</title>
+
+    <!-- Favicons -->
+    <link href="../files/web-favicon.png" rel="icon">
+    <link href="../files/web-appleicon.png" rel="apple-touch-icon">
+
+    <!--External Link-->
+    <link rel="stylesheet" href="../Style/main.css">
+    <link rel="stylesheet" href="../Style/tablet.css">
+    <link rel="stylesheet" href="../Style/mobile.css">
+    <script src="https://kit.fontawesome.com/6a408ba681.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="/Style/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/page.css">
+
+</head>
+
+<body>
+    <!--Main page info-->
+    <section class="first">
+        <div class="what-we-do">
+            <div class="details">
+                <span class="fest-img">
+                    <img src="../files/web-title.png" alt="">
+                </span>
+                <span class="text">
+                    <h3>Drama, Thriller</h3>
+                    <h2>Film By BCF 1 Batwoska</h2>
+                    <p style="color: #fff;">WeB mengisahkan perjalanan emosional Aci, seorang perempuan muda yang menghadapi berbagai kesulitan hidup setelah kematian ayahnya. Berjuang dengan beban emosional dan finansial yang ditinggalkan, Aci berusaha keras untuk menemukan kedamaian di tengah tekanan.</p>
+                </span>
+                
+                <div class="trailer-button">
+                    <a href="https://youtu.be/PeLnpxw0g8M?si=ZZgYyhxPDiuAvmdO" target="_blank">
+                        <div class="custom-button">
+                            <span>Official Trailer</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="js-video [vimeo, widescreen]">
+                <iframe src="https://www.viddsee.com/player/upfca" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="sixth">
+        <div class="partners-logo collab-logo-item">
+            <span class="collab-logo">
+                <img src="./files/sponsor/sponsor-logo.png" alt="">
+            </span>
+        </div>
+    </section>
+
+    <!--Fetching of Header and Footer into the page-->
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(html => {
+                document.body.insertAdjacentHTML('afterbegin', html);
+
+                headerContentLoaded();
+            });
+    </script>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(html => {
+                document.body.insertAdjacentHTML('beforeend', html);
+
+                footerContentLoaded();
+            });
+    </script>
+
+    <!--External Script code-->
+    <script src="../Script/mail_system/sendmail.js"></script>
+    <script src="../Script/carousel.js"></script>
+</body>
+</html>
