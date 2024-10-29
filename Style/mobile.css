@@ -84,6 +84,12 @@
         text-align: center;
         margin: 0 2rem;
     }
+    .second {
+        padding: 1rem 1rem;
+    }
+    .third {
+        padding: 1rem 1rem;
+    }
     .new-fiims{
         padding: 0 4rem;
     }
@@ -98,6 +104,14 @@
     }
     .products-card{
         width: 100%;
+    }
+    .team-card {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        gap: 0rem 2rem;
+        justify-self: center;
+        align-items: center;
     }
     .products-icn{
         width: 90px;

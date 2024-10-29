@@ -201,7 +201,8 @@ nav ul li{
 }
 .second{
     margin: 2rem 0;
-    padding: 4rem 0;
+    padding-top: 0rem;
+    padding-bottom: 30rem;
     display: grid;
     background-position: center;
     background-size: cover;
@@ -232,7 +233,7 @@ nav ul li{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem 2rem;
+    gap: 2rem 2rem;
 }
 .gallery-card img{
     width: 370px;
@@ -247,8 +248,8 @@ nav ul li{
 .third{
     display: grid;
     background-color: #262626;
-    padding: 4rem 0;
-    padding-bottom: 150rem;
+    padding-top: 0rem;
+    padding-bottom: 143rem;
 }
 .third-2{
     display: grid;
@@ -299,7 +300,7 @@ nav ul li{
 .stirring{
     background-color: rgb(16, 17, 19);
     display: flex;
-    padding: 10rem 10rem;
+    padding: 0rem 10rem;
     align-items: center;
 }
 .btn-get-started {
@@ -321,7 +322,7 @@ nav ul li{
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 120%;
     background: #000;
 }
 .youtube-container iframe {
@@ -334,7 +335,7 @@ nav ul li{
 }
 .stirring-img{
     width: 50%;
-    padding:  0 0 0 4rem;
+    padding:  0 0 0 10rem;
 }
 .stirring-movie{
     width: 50%;
@@ -385,13 +386,14 @@ nav ul li{
     align-self: center;
     gap: 0 4rem;
     justify-self: center;
+    align-items: center;
 }
 .team-profile{
     cursor: default;
 }
 .profile-pics{
     width: 350px;
-    height: 350px;
+    height: 354px;
     display: grid;
 }
 .profile-pics p{
@@ -403,6 +405,7 @@ nav ul li{
 .profile-pics img{
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 .profile-txt h3{
     color: #ffffff;
@@ -492,38 +495,6 @@ nav ul li{
 .footer-menu ul li{
     color: #848484;
     padding: 6px 0;
-}
-.form{
-    width: auto;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin-right: 2.8rem;
-    background-color: transparent;
-    border: #fff 1px solid;
-    cursor: pointer;
-    transition: ease-out .5s;
-}
-.form:hover{
-    border: #fff 2px solid;
-}
-.form input{
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    font-size: 17px;
-    font-weight: inherit;
-    outline: 0;
-    color: #848484;
-    cursor: pointer;
-}
-input:focus{
-    outline: nome !important;
-}
-.form i{
-    color: #fff;
-    padding-right: 5px;
 }
 .lst{
     background-color: #000;
