@@ -392,8 +392,8 @@ nav ul li{
     cursor: default;
 }
 .profile-pics{
-    width: 350px;
-    height: 354px;
+    width: 250px;
+    height: 254px;
     display: grid;
 }
 .profile-pics p{
